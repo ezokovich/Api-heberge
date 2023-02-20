@@ -113,11 +113,15 @@ Now that we’ve learned about  the different request methods that we should use
 ## real-time_example
 <br>
 <br>
+
 ***
 *`GET` method : <br>
 ***
+
 <br>
 <br>
+<br>
+
 $${\color{lightblue} **Get &ensp; a &ensp; Specific &ensp; User** }$$
 
 
