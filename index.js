@@ -7,6 +7,7 @@ const userRoute = require("./routes/users");
 const movieRoute = require("./routes/movies");
 const listRoute = require("./routes/lists");
 const cors = require("cors");
+app.use(cors());
 dotenv.config();
 
 mongoose.connect(process.env.Mongo_Url, {
