@@ -2,6 +2,8 @@ const router = require("express").Router();
 const User = require("../models/User");
 const CryptoJS = require("crypto-js");
 const verify = require("../verifyToken");
+const cors = require("cors");
+app.use(cors());
 //UPDATE
 
 router.put("/:id", verify, async (req, res) => {
